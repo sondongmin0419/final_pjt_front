@@ -103,8 +103,7 @@ import CommentList from './CommentList'
 import CommentForm from './CommentForm'
 import VideoDetail from './VideoDetail'
 
-const SERVER_URL = process.env.VUE_APP_SERVER_URL
-
+const SERVER_URL = 'https://finalback.herokuapp.com'
 export default {
   name: 'MovieDetail',
   data: function () {

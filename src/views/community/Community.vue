@@ -19,8 +19,7 @@ import axios from 'axios'
 
 import CommunityList from './CommunityList'
 
-const SERVER_URL = process.env.VUE_APP_SERVER_URL
-
+const SERVER_URL = 'https://finalback.herokuapp.com'
 export default {
   name: 'Community',
   data: function () {

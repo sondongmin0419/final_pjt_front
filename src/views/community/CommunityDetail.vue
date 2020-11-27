@@ -54,9 +54,7 @@ import axios from 'axios'
 import CommunityCommentList from './CommunityCommentList'
 import CommunityCommentForm from './CommunityCommentForm'
 
-const SERVER_URL = process.env.VUE_APP_SERVER_URL
-
-
+const SERVER_URL = 'https://finalback.herokuapp.com'
 export default {
   name: 'CommunityDetail',
 
